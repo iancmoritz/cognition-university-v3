@@ -17,7 +17,7 @@ export default function LibraryPage() {
   return (
     <div className="px-8 pb-16">
       <div className="mb-6">
-        <h1 className="font-serif text-3xl font-semibold text-text">My library</h1>
+        <h1 className="text-3xl font-semibold text-text">My library</h1>
         <p className="mt-1 text-text-secondary">
           Content assigned to you, with your progress and due dates.
         </p>
@@ -82,7 +82,7 @@ function LibraryRow({ course, filter }: { course: Course; filter: Tab }) {
   return (
     <Link
       href={`/courses/${course.slug}`}
-      className="group flex items-center gap-4 rounded-lg border border-border p-3 transition-all hover:border-border-strong hover:shadow-sm"
+      className="group flex items-center gap-4 rounded-lg bg-surface border border-border p-3 transition-all hover:border-border-strong hover:shadow-sm"
     >
       <div className="relative h-16 w-24 shrink-0 overflow-hidden rounded-md">
         <Image

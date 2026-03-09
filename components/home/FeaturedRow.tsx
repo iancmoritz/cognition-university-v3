@@ -34,7 +34,7 @@ export function FeaturedRow({ courses }: { courses: Course[] }) {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
             <div className="absolute inset-x-0 bottom-0 translate-y-4 p-6 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
-              <div className="font-serif text-xl font-semibold text-white">{c.title}</div>
+              <div className="text-xl font-semibold text-white">{c.title}</div>
               <div className="mt-1 text-sm text-white/80">
                 {c.duration} · {c.difficulty}
               </div>

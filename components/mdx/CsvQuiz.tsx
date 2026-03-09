@@ -36,7 +36,7 @@ export function CsvQuiz({ csvFile, title }: CsvQuizProps) {
 
   return (
     <div className="my-8 rounded-lg border border-border bg-surface p-6">
-      {title && <h3 className="mb-4 font-serif text-xl font-semibold">{title}</h3>}
+      {title && <h3 className="mb-4 text-xl font-semibold">{title}</h3>}
 
       {questions.map((q, qi) => {
         const selected = answers[qi];
@@ -59,7 +59,7 @@ export function CsvQuiz({ csvFile, title }: CsvQuizProps) {
                     className={clsx(
                       "rounded-md border px-4 py-2.5 text-left text-sm transition-colors",
                       submitted && isAnswer && "border-success bg-success/10",
-                      submitted && isSelected && !isAnswer && "border-red-400 bg-red-50",
+                      submitted && isSelected && !isAnswer && "border-red-400 bg-red-400/10",
                       !submitted && isSelected && "border-primary bg-lavender",
                       !submitted && !isSelected && "border-border hover:border-border-strong",
                     )}
@@ -89,7 +89,7 @@ export function CsvQuiz({ csvFile, title }: CsvQuizProps) {
           type="button"
           onClick={() => setSubmitted(true)}
           disabled={Object.keys(answers).length < questions.length}
-          className="rounded-full bg-primary px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-50"
+          className="rounded-full bg-primary px-5 py-2 text-sm font-semibold text-black transition-colors hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-50"
         >
           Check answers
         </button>

@@ -17,7 +17,7 @@ export function CourseGridCard({ course }: { course: Course }) {
   return (
     <Link
       href={`/courses/${course.slug}`}
-      className="group flex flex-col overflow-hidden rounded-lg border border-border transition-all hover:border-border-strong hover:shadow-md"
+      className="group flex flex-col overflow-hidden rounded-lg bg-surface border border-border transition-all hover:border-border-strong hover:shadow-md"
     >
       <div className="relative aspect-video w-full overflow-hidden">
         <Image

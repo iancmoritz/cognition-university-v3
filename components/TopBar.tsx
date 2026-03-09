@@ -19,9 +19,9 @@ export function TopBar() {
       </div>
 
       <div className="flex items-center gap-1.5 text-sm">
-        <span className="font-semibold text-text">Need help?</span>
+        <span className="font-semibold text-text">Devin Docs</span>
         <a href="#" className="text-text-secondary hover:text-text">
-          View Resources
+          Documentation
         </a>
       </div>
     </header>

@@ -6,7 +6,7 @@ export default function CreatePage() {
     <EmptyState
       icon={PenLine}
       title="Create"
-      description="View and manage all courses you own or collaborate on. The authoring tool itself is intentionally out of scope for this UI clone."
+      description="Create and manage learning content for your team. Course authoring tools coming soon."
     />
   );
 }

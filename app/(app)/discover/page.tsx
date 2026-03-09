@@ -7,7 +7,7 @@ export default function DiscoverPage() {
   return (
     <div className="px-8 pb-16">
       <div className="mb-8">
-        <h1 className="font-serif text-3xl font-semibold text-text">Discover</h1>
+        <h1 className="text-3xl font-semibold text-text">Discover</h1>
         <p className="mt-1 text-text-secondary">
           Browse all content available in your workspace.
         </p>

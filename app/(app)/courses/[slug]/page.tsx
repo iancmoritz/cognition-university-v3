@@ -21,7 +21,7 @@ export default async function CoursePage({ params }: Props) {
       <CourseHeader course={course} />
 
       <div className="mt-8 max-w-3xl">
-        <h2 className="mb-4 font-serif text-2xl font-semibold text-text">Outline</h2>
+        <h2 className="mb-4 text-2xl font-semibold text-text">Outline</h2>
         <div className="flex flex-col gap-3">
           {sortedSections.map((s, i) => (
             <SectionAccordion

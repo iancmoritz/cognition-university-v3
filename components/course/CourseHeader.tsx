@@ -31,7 +31,7 @@ export function CourseHeader({ course }: { course: Course }) {
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
 
         <div className="absolute inset-x-0 bottom-0 p-8 md:p-10">
-          <h1 className="font-serif text-3xl font-semibold text-white md:text-4xl">
+          <h1 className="text-3xl font-semibold text-white md:text-4xl">
             {course.title}
           </h1>
           <p className="mt-2 max-w-2xl text-white/90">{course.description}</p>
@@ -55,7 +55,7 @@ export function CourseHeader({ course }: { course: Course }) {
           {resumeTarget && (
             <Link
               href={`/courses/${course.slug}/lessons/${resumeTarget.slug}`}
-              className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-text transition-transform hover:scale-105"
+              className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-black transition-transform hover:scale-105"
             >
               <Play size={16} fill="currentColor" />
               {started ? "Resume" : "Start course"}

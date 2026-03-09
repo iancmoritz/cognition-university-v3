@@ -33,7 +33,7 @@ export default async function LessonPage({ params }: Props) {
           <div className="mb-1 text-xs font-semibold uppercase tracking-wide text-text-tertiary">
             {section.title}
           </div>
-          <h1 className="font-serif text-4xl font-semibold tracking-tight text-text">
+          <h1 className="text-4xl font-semibold tracking-tight text-text">
             {lesson.title}
           </h1>
           {lesson.duration && (

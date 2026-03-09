@@ -13,7 +13,7 @@ export function WorkspaceSwitcher() {
         type="button"
         className="flex min-w-0 items-center gap-2 rounded-md px-1 py-1 hover:bg-surface"
       >
-        <div className="flex size-6 shrink-0 items-center justify-center rounded-md bg-primary text-xs font-semibold text-white">
+        <div className="flex size-6 shrink-0 items-center justify-center rounded-md bg-primary text-xs font-semibold text-black">
           {mockWorkspace.initial}
         </div>
         {expanded && (

@@ -32,8 +32,8 @@ export function ResumeCard() {
       >
         <span className="font-medium text-text-secondary">Resume</span>
         <span className="flex-1 truncate font-semibold text-text">{course.title}</span>
-        <div className="flex size-5 items-center justify-center rounded bg-text">
-          <Play size={10} fill="white" className="text-white" />
+        <div className="flex size-5 items-center justify-center rounded bg-primary">
+          <Play size={10} fill="black" className="text-black" />
         </div>
       </Link>
     </div>

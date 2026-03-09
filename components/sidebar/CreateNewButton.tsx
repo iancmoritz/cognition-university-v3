@@ -17,7 +17,7 @@ export function CreateNewButton() {
         aria-disabled
         title="Content creation coming soon"
         className={clsx(
-          "flex w-full items-center justify-center gap-2 rounded-full bg-primary py-2.5 text-sm font-semibold text-white",
+          "flex w-full items-center justify-center gap-2 rounded-full bg-primary py-2.5 text-sm font-medium text-black",
           "transition-colors hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-90",
         )}
       >

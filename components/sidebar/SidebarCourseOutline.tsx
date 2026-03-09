@@ -62,7 +62,7 @@ export function SidebarCourseOutline({ course }: { course: Course }) {
       <div className="px-4 pb-3">
         <Link
           href={`/courses/${course.slug}`}
-          className="block truncate font-serif text-lg font-semibold text-text hover:opacity-70"
+          className="block truncate text-lg font-semibold text-text hover:opacity-70"
         >
           {course.title}
         </Link>

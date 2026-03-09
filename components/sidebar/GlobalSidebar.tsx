@@ -53,7 +53,7 @@ export function GlobalSidebar() {
         transition={{ type: "spring", stiffness: 400, damping: 40 }}
         onMouseEnter={() => !pinned && setPeeking(true)}
         onMouseLeave={() => !pinned && setPeeking(false)}
-        className="fixed left-0 top-0 z-30 flex h-screen flex-col border-r border-border bg-bg"
+        className="fixed left-0 top-0 z-30 flex h-screen flex-col border-r border-border bg-bg transition-colors duration-200"
       >
         <WorkspaceSwitcher />
 

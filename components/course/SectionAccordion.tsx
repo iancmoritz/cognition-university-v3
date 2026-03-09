@@ -22,7 +22,7 @@ export function SectionAccordion({ courseSlug, section, defaultOpen = false }: P
   const completedInSection = sortedLessons.filter((l) => isComplete(l.slug)).length;
 
   return (
-    <div className="overflow-hidden rounded-lg border border-border">
+    <div className="overflow-hidden rounded-lg border border-border bg-surface">
       <button
         type="button"
         onClick={() => setOpen(!open)}

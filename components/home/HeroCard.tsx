@@ -22,7 +22,7 @@ export function HeroCard({ todoCourses }: { todoCourses: Course[] }) {
 
   return (
     <section className="rounded-xl bg-lavender p-8 md:p-10">
-      <h1 className="font-serif text-3xl font-medium tracking-tight text-text md:text-4xl">
+      <h1 className="text-3xl font-medium tracking-tight text-text md:text-4xl">
         {greeting()}, {firstName}
       </h1>
 

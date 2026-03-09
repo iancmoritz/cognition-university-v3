@@ -6,7 +6,7 @@ export default function SearchPage() {
     <EmptyState
       icon={Search}
       title="Search"
-      description="Search across all content in your workspace. In Sana this is an AI-powered assistant — here it's a placeholder so the nav never 404s."
+      description="Search across all courses, lessons, and documentation in your workspace."
     />
   );
 }

@@ -6,7 +6,7 @@ export default function ManagePage() {
     <EmptyState
       icon={Building2}
       title="Manage"
-      description="Manage users, groups, programs, certificates and more. Admin tooling is stubbed out — the nav item is present to match Sana's layout."
+      description="Manage users, teams, and organization settings for your Devin deployment."
     />
   );
 }
