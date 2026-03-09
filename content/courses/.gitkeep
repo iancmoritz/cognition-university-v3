@@ -1,0 +1,10 @@
+# This directory is the import target for cognition-university MDX content.
+#
+# Expected structure after import:
+#   content/courses/{slug}/
+#     course.en.mdx                              — exports metadata: title, description, duration, difficulty, tag, order, coverImage
+#     sections/{section-slug}/section.mdx
+#     sections/{section-slug}/lessons/{lesson-slug}.en.mdx
+#
+# lib/courses.ts currently reads from lib/mock-data.ts. Once content is imported,
+# swap its implementation to scan this directory (same function signatures).

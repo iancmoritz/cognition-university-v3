@@ -1,0 +1,2 @@
+# Drop CSV quiz files here. <CsvQuiz csvFile="foo.csv" /> fetches from this directory.
+# Expected columns: question, answer_index, answer_explanation, a, b, c, d
